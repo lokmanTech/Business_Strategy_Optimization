@@ -1,0 +1,15 @@
+digraph {
+	CEO [label=CEO]
+	CTO [label=CTO]
+	CFO [label=CFO]
+	Manager1 [label="Manager 1"]
+	Manager2 [label="Manager 2"]
+	Employee1 [label="Employee 1"]
+	Employee2 [label="Employee 2"]
+	CEO -> CTO
+	CEO -> CFO
+	CTO -> Manager1
+	CTO -> Manager2
+	Manager1 -> Employee1
+	Manager2 -> Employee2
+}
